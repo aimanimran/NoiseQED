@@ -132,5 +132,5 @@ def noise_analysis(input_path):
     return best_audio, reduced_audios
 
 # Example usage
-input_audio = "sample_noisy"
+input_audio = sample_noisy.wav
 best_audio, all_processed_audios = noise_analysis(input_audio)
